@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <title>台灣恐懼美食生化靶場</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: #111418;
+      color: #e2e8f0;
+      font-family: 'Noto Sans CJK TC', 'WenQuanYi Micro Hei', 'Microsoft JhengHei', 'PingFang TC', sans-serif;
+      padding: 32px;
+      width: 1280px;
+      min-height: 1800px;
+    }
+    header {
+      background: linear-gradient(135deg, #1e293b, #0f172a);
+      border: 3px solid #38bdf8;
+      border-radius: 12px;
+      padding: 24px 32px;
+      margin-bottom: 28px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    h1 { font-size: 38px; color: #38bdf8; text-shadow: 0 0 12px rgba(56, 189, 248, 0.4); letter-spacing: 2px; }
+    .badge {
+      background: #f43f5e;
+      color: #fff;
+      padding: 6px 16px;
+      font-weight: bold;
+      border-radius: 9999px;
+      font-size: 16px;
+      letter-spacing: 1px;
+      box-shadow: 0 0 10px rgba(244, 63, 94, 0.5);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+      margin-bottom: 32px;
+    }
+    .card {
+      background: #1e293b;
+      border: 2px solid #475569;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+    }
+    .card h2 { font-size: 22px; color: #f59e0b; margin-bottom: 12px; }
+    .card p { font-size: 15px; line-height: 1.7; color: #94a3b8; }
+    .card.accent { border-color: #10b981; background: #064e3b; }
+    .card.accent h2 { color: #34d399; }
+    .card.danger { border-color: #ef4444; background: #450a0a; }
+    .card.danger h2 { color: #f87171; }
+    
+    .platform-row {
+      display: flex;
+      justify-content: space-between;
+      margin: 40px 0;
+      gap: 20px;
+    }
+    .platform {
+      flex: 1;
+      height: 38px;
+      background: #eab308;
+      border: 3px solid #ca8a04;
+      border-radius: 6px;
+      text-align: center;
+      line-height: 32px;
+      font-weight: bold;
+      color: #000;
+      letter-spacing: 2px;
+      font-size: 16px;
+    }
+    
+    .big-article {
+      background: #182234;
+      border: 2px solid #3b82f6;
+      border-radius: 12px;
+      padding: 32px;
+      margin-bottom: 32px;
+    }
+    .big-article h2 { font-size: 28px; color: #60a5fa; margin-bottom: 16px; }
+    .big-article p { font-size: 16px; line-height: 1.8; color: #cbd5e1; margin-bottom: 16px; }
+
+    .target-zones {
+      display: flex;
+      gap: 24px;
+      margin-top: 40px;
+    }
+    .target-box {
+      flex: 1;
+      height: 160px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: #334155;
+      border: 4px dashed #94a3b8;
+      border-radius: 12px;
+      font-size: 22px;
+      font-weight: bold;
+      color: #f1f5f9;
+      letter-spacing: 1px;
+    }
+    .target-box.danger { border-color: #f43f5e; background: #881337; color: #fecdd3; }
+    .target-box.bonus { border-color: #10b981; background: #064e3b; color: #a7f3d0; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🍢 網頁大拆遷：台灣恐懼美食生化靶場</h1>
+    <span class="badge">夜市最高機密 • 外國人慎入</span>
+  </header>
+
+  <div class="platform-row">
+    <div class="platform">高空竹籤天橋 甲區</div>
+    <div class="platform" style="background: #38bdf8; border-color: #0284c7;">臭氣轟炸露台 乙區</div>
+    <div class="platform" style="background: #ec4899; border-color: #be185d;">黑亮皮蛋屋頂 丙區</div>
+  </div>
+
+  <div class="grid">
+    <div class="card">
+      <h2>恐懼美食軍火庫</h2>
+      <p>按鍵 [1-6] 挑選：1.豬血糕連射籤、2.豬耳朵切片散彈、3.臭豆腐臭氣火箭、4.皮蛋高爆手榴彈、5.滷大腸穿透光束、6.豬尾巴終極核彈。按住滑鼠左鍵開火狂轟！</p>
+    </div>
+    <div class="card accent">
+      <h2>雙渦輪噴氣起飛</h2>
+      <p>長按空白鍵即可啟動噴氣背包，直接在整個網頁天際線逆天飛行！在空中連點空白鍵還能做出 360 度迴旋空翻閃避障礙！</p>
+    </div>
+    <div class="card danger">
+      <h2>臭氣生化暴力開洞</h2>
+      <p>臭豆腐與皮蛋會在文字上炸出巨大臭氣深坑。打穿段落標題、向下挖出逃生密道，把整個網站轟到骨架都不剩！</p>
+    </div>
+  </div>
+
+  <div class="big-article">
+    <h2>維基百科：火柴人夜市奇遇記（條目模擬）</h2>
+    <p>火柴人特工來到台灣各大夜市，發現了讓外國人聞風喪膽的 6 大究極美食！豬血糕的紮實厚重、臭豆腐的發酵霸氣、皮蛋的晶瑩墨綠、滷大腸的彈牙嚼勁、豬耳朵的清脆軟骨，以及豬尾巴的迴旋暴擊。</p>
+    <p>特工決定將這 6 款台灣美食全數改裝為重型拆遷兵器！不管是再堅固的網頁防線、再冗長的文章或討厭的彈出視窗，只要一發臭豆腐或皮蛋打過去，立刻寸草不生、全面塌陷！</p>
+  </div>
+
+  <div class="target-zones">
+    <div class="target-box danger">
+      臭豆腐酥脆重裝區
+      <small style="font-size: 14px; margin-top: 8px; opacity: 0.85;">[外酥內嫩 / 建議用臭豆腐或豬尾巴直擊]</small>
+    </div>
+    <div class="target-box bonus">
+      皮蛋神秘硫磺金庫
+      <small style="font-size: 14px; margin-top: 8px; opacity: 0.85;">[散發深邃香氣 / 鑽洞向下探索]</small>
+    </div>
+  </div>
+</body>
+</html>

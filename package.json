@@ -1,0 +1,21 @@
+{
+  "name": "destroy-web",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server/server.js & cd client && npx vite --port 3000 --host",
+    "server": "node server/server.js",
+    "client": "cd client && npx vite --port 3000 --host",
+    "build": "cd client && npx vite build"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "puppeteer": "^24.4.0"
+  },
+  "devDependencies": {
+    "phaser": "^3.88.2",
+    "vite": "^6.2.0"
+  }
+}
